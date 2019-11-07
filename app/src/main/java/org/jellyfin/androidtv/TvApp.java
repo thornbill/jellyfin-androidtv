@@ -14,7 +14,6 @@ import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.media.AudioManager;
-import android.os.Build;
 import android.preference.PreferenceManager;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
@@ -97,7 +96,7 @@ public class TvApp extends Application implements ActivityCompat.OnRequestPermis
     private long lastMusicPlayback = System.currentTimeMillis();
     private long lastUserInteraction = System.currentTimeMillis();
 
-    private boolean searchAllowed = Build.VERSION.SDK_INT < 23;
+    private boolean searchAllowed = !DeviceUtils.is60();
 
     private GradientDrawable currentBackgroundGradient;
 
@@ -415,10 +414,6 @@ public class TvApp extends Application implements ActivityCompat.OnRequestPermis
     }
 
     public Drawable getDrawableCompat(int id) {
-//        if (Build.VERSION.SDK_INT >= 21) {
-//            return getDrawable(id);
-//        }
-
         return getResources().getDrawable(id);
     }
 

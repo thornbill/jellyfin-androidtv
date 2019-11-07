@@ -283,8 +283,7 @@ public class Utils {
             return true;
         }
 
-        return (DeviceUtils.isFireTv() && !DeviceUtils.is50()) ||
-                "1".equals(TvApp.getApplication().getPrefs().getString("pref_audio_option", "0"));
+        return "1".equals(TvApp.getApplication().getPrefs().getString("pref_audio_option", "0"));
     }
 
     /**

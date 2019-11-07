@@ -24,10 +24,6 @@ public class DeviceUtils {
         return Build.MODEL.equals(NEXUS_MODEL);
     }
 
-    public static boolean is50() {
-        return Build.VERSION.SDK_INT >= 21;
-    }
-
     public static boolean is60() {
         return Build.VERSION.SDK_INT >= 23;
     }

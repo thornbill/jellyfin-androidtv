@@ -76,13 +76,9 @@ public class VideoManager implements IVLCVout.OnNewVideoLayoutListener {
         mSurfaceHolder.addCallback(mSurfaceCallback);
         mSurfaceFrame = view.findViewById(R.id.player_surface_frame);
         mSubtitlesSurface = view.findViewById(R.id.subtitles_surface);
-        if (DeviceUtils.is50()) {
-            mSubtitlesSurface.setZOrderMediaOverlay(true);
-            mSubtitlesSurface.getHolder().setFormat(PixelFormat.TRANSLUCENT);
-            hasSubtitlesSurface = true;
-        } else {
-            mSubtitlesSurface.setVisibility(View.GONE);
-        }
+        mSubtitlesSurface.setZOrderMediaOverlay(true);
+        mSubtitlesSurface.getHolder().setFormat(PixelFormat.TRANSLUCENT);
+        hasSubtitlesSurface = true;
         mVideoView = view.findViewById(R.id.videoView);
     }
 

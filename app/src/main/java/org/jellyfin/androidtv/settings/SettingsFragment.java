@@ -40,9 +40,6 @@ public class SettingsFragment extends PreferenceFragment implements SharedPrefer
 
         // conditionally hide options that don't apply
         PreferenceCategory cat = (PreferenceCategory) findPreference("pref_playback_category");
-        if (DeviceUtils.isFireTv() && !DeviceUtils.is50()) {
-            cat.removePreference(findPreference("pref_audio_option"));
-        }
         if (DeviceUtils.is60()) {
             cat.removePreference(findPreference("pref_bitstream_ac3"));
         } else {
