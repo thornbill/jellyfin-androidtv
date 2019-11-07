@@ -8,9 +8,6 @@ import android.view.ViewGroup;
 import org.jellyfin.androidtv.R;
 import org.jellyfin.androidtv.util.Utils;
 
-/**
- * Created by Eric on 4/30/2015.
- */
 public class TextButton extends AppCompatButton {
     public TextButton(Context context) {
         super(context);

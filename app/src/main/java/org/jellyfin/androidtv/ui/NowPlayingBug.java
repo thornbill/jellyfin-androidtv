@@ -24,9 +24,6 @@ import org.jellyfin.androidtv.util.TimeUtils;
 
 import org.jellyfin.apiclient.model.dto.BaseItemDto;
 
-/**
- * Created by Eric on 7/22/2015.
- */
 public class NowPlayingBug extends FrameLayout {
     ImageView npIcon;
     TextView npDesc;

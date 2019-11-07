@@ -12,9 +12,6 @@ import org.jellyfin.androidtv.R;
 import org.jellyfin.androidtv.TvApp;
 import org.jellyfin.androidtv.util.Utils;
 
-/**
- * Created by Eric on 8/23/2015.
- */
 public class AudioDelayPopup {
 
     final int WIDTH = Utils.convertDpToPixel(TvApp.getApplication(), 240);

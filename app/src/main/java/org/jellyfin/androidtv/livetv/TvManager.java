@@ -44,9 +44,6 @@ import org.jellyfin.apiclient.model.querying.ItemsResult;
 import org.jellyfin.apiclient.model.results.ChannelInfoDtoResult;
 import org.jellyfin.apiclient.model.results.TimerInfoDtoResult;
 
-/**
- * Created by Eric on 9/4/2015.
- */
 public class TvManager {
     private static final String DISPLAY_PREFS_APP_NAME = "jellyfin";
 

@@ -10,9 +10,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-/**
- * Created by Eric on 3/1/2015.
- */
 public class Recommendations {
 
     private String serverId;

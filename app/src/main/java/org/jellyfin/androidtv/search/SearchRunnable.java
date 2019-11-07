@@ -11,9 +11,6 @@ import org.jellyfin.androidtv.presentation.CardPresenter;
 
 import org.jellyfin.apiclient.model.search.SearchQuery;
 
-/**
- * Created by Eric on 4/8/2015.
- */
 public class SearchRunnable implements Runnable {
     private String searchString;
     private Activity activity;

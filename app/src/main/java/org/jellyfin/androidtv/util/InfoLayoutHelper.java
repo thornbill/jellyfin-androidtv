@@ -21,9 +21,6 @@ import org.jellyfin.apiclient.model.dto.BaseItemDto;
 import org.jellyfin.apiclient.model.entities.MediaStream;
 import org.jellyfin.apiclient.model.entities.SeriesStatus;
 
-/**
- * Created by Eric on 4/29/2015.
- */
 public class InfoLayoutHelper {
 
     private static int textSize = 16;

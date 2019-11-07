@@ -37,9 +37,6 @@ import org.jellyfin.androidtv.util.Utils;
 
 import org.jellyfin.apiclient.model.dto.BaseItemDto;
 
-/**
- * Created by Eric on 10/22/2015.
- */
 public class PhotoPlayerActivity extends BaseActivity {
     BaseItemDto currentPhoto;
 

@@ -1,8 +1,5 @@
 package org.jellyfin.androidtv.querying;
 
-/**
- * Created by Eric on 2/12/2015.
- */
 public class SpecialsQuery {
     private String ItemId;
 

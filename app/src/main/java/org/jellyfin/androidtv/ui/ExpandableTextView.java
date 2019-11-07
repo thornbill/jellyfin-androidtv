@@ -15,12 +15,7 @@ import org.jellyfin.androidtv.R;
 import org.jellyfin.androidtv.TvApp;
 import org.jellyfin.androidtv.details.ExpandedTextActivity;
 
-/**
- * Created by spam on 9/30/2016.
- */
-
 public class ExpandableTextView extends AppCompatTextView {
-
     private boolean textChanged;
     private boolean isElipsized;
 

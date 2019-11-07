@@ -25,9 +25,6 @@ import org.jellyfin.androidtv.util.Utils;
 
 import java.util.Timer;
 
-/**
- * Created by Eric on 1/26/2015.
- */
 public class MySearchFragment extends SearchFragment
         implements SearchFragment.SearchResultProvider {
 

@@ -12,9 +12,6 @@ import org.jellyfin.androidtv.util.TimeUtils;
 
 import java.util.Date;
 
-/**
- * Created by spam on 9/12/2016.
- */
 public class FriendlyDateButton extends FrameLayout {
     private long dateVal;
 

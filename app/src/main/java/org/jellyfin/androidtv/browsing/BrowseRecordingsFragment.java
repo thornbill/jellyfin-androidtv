@@ -27,9 +27,6 @@ import org.jellyfin.apiclient.model.livetv.TimerQuery;
 import org.jellyfin.apiclient.model.querying.ItemFields;
 import org.jellyfin.apiclient.model.results.TimerInfoDtoResult;
 
-/**
- * Created by Eric on 9/3/2015.
- */
 public class BrowseRecordingsFragment extends EnhancedBrowseFragment {
 
     @Override

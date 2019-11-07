@@ -19,9 +19,6 @@ import org.jellyfin.apiclient.interaction.Response;
 import org.jellyfin.apiclient.interaction.ResponseStreamInfo;
 import org.jellyfin.apiclient.model.entities.MediaStream;
 
-/**
- * Created by Eric on 7/19/2015.
- */
 public class SubtitleHelper {
 
     private ApiClient apiClient;

@@ -33,9 +33,6 @@ import org.jellyfin.apiclient.model.dto.BaseItemDto;
 import org.jellyfin.apiclient.model.livetv.SeriesTimerInfoDto;
 import org.jellyfin.apiclient.model.livetv.TimerInfoDto;
 
-/**
- * Created by Eric on 6/3/2015.
- */
 public class RecordPopup {
     final int SERIES_HEIGHT = Utils.convertDpToPixel(TvApp.getApplication(), 420);
     final int NORMAL_HEIGHT = Utils.convertDpToPixel(TvApp.getApplication(), 330);

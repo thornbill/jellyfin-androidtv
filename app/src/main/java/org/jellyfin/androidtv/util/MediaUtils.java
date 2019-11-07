@@ -6,9 +6,6 @@ import android.media.MediaCodecInfo;
 
 import org.jellyfin.androidtv.TvApp;
 
-/**
- * Created by spam on 7/15/2016.
- */
 public class MediaUtils {
     private static final MediaCodecList sMCL = new MediaCodecList(MediaCodecList.REGULAR_CODECS);
 

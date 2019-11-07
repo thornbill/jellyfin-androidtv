@@ -14,9 +14,6 @@ import org.jellyfin.androidtv.util.Utils;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
-/**
- * Created by Eric on 3/1/2015.
- */
 public class RecommendationBuilder {
     private static final String TAG = "RecommendationBuilder";
 

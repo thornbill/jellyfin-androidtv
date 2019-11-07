@@ -16,9 +16,6 @@ import org.jellyfin.androidtv.R;
 import org.jellyfin.androidtv.TvApp;
 import org.jellyfin.androidtv.util.ImageUtils;
 
-/**
- * Created by Eric on 7/22/2015.
- */
 public class ClockUserView extends RelativeLayout {
     public ClockUserView(Context context) {
         super(context);

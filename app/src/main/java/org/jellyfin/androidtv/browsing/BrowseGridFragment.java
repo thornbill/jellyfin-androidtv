@@ -1,7 +1,5 @@
 package org.jellyfin.androidtv.browsing;
 
-import android.os.Bundle;
-
 import org.jellyfin.androidtv.TvApp;
 import org.jellyfin.androidtv.model.ChangeTriggerType;
 import org.jellyfin.androidtv.querying.StdItemQuery;
@@ -9,22 +7,7 @@ import org.jellyfin.androidtv.querying.StdItemQuery;
 import org.jellyfin.apiclient.model.querying.ArtistsQuery;
 import org.jellyfin.apiclient.model.querying.ItemFields;
 
-/**
- * Created by Eric on 8/16/2015.
- */
 public class BrowseGridFragment extends StdGridFragment {
-
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
-
-    @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-
-    }
 
     @Override
     protected void setupQueries(IGridLoader gridLoader) {

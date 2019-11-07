@@ -31,9 +31,6 @@ import java.util.Map;
 
 import org.jellyfin.apiclient.model.entities.SortOrder;
 
-/**
- * Created by Eric on 8/17/2015.
- */
 public class HorizontalGridFragment extends Fragment {
     private static final String TAG = "HorizontalGridFragment";
     private static boolean DEBUG = false;

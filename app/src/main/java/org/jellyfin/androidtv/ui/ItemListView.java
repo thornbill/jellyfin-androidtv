@@ -20,9 +20,6 @@ import org.jellyfin.apiclient.model.dto.BaseItemDto;
 import org.jellyfin.apiclient.model.querying.ItemFields;
 import org.jellyfin.apiclient.model.querying.ItemsResult;
 
-/**
- * Created by Eric on 11/21/2015.
- */
 public class ItemListView extends FrameLayout {
     Context mContext;
     LinearLayout mList;

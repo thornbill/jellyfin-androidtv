@@ -7,9 +7,6 @@ import org.jellyfin.androidtv.util.Utils;
 
 import org.jellyfin.apiclient.model.dto.BaseItemDto;
 
-/**
- * Created by Eric on 5/13/2015.
- */
 public class GuideFilters {
     private SharedPreferences prefs;
     private boolean movies;

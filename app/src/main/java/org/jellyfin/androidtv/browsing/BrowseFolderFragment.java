@@ -18,9 +18,6 @@ import org.jellyfin.androidtv.ui.GridButton;
 
 import org.jellyfin.apiclient.model.dto.BaseItemDto;
 
-/**
- * Created by Eric on 12/4/2014.
- */
 public class BrowseFolderFragment extends StdBrowseFragment {
 
     protected static final int BY_LETTER = 0;

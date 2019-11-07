@@ -14,9 +14,6 @@ import org.jellyfin.androidtv.TvApp;
 import org.jellyfin.androidtv.itemhandling.BaseRowItem;
 import org.jellyfin.androidtv.util.InfoLayoutHelper;
 
-/**
- * Created by Eric on 7/27/2015.
- */
 public class ItemPanel extends RelativeLayout {
 
     private TextView title;

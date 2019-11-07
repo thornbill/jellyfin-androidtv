@@ -5,9 +5,6 @@ import org.jellyfin.androidtv.TvApp;
 import org.jellyfin.apiclient.model.querying.ItemFields;
 import org.jellyfin.apiclient.model.querying.ItemQuery;
 
-/**
- * Created by Eric on 12/5/2014.
- */
 public class StdItemQuery extends ItemQuery {
 
     public StdItemQuery(ItemFields[] fields) {

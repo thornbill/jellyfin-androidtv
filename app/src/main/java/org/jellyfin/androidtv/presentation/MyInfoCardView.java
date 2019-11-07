@@ -17,9 +17,6 @@ import java.text.NumberFormat;
 import org.jellyfin.apiclient.model.entities.MediaStream;
 import org.jellyfin.apiclient.model.entities.MediaStreamType;
 
-/**
- * Created by spam on 6/28/2016.
- */
 public class MyInfoCardView extends FrameLayout {
     private LinearLayout mInfoLayout;
     private TextView mTitle;

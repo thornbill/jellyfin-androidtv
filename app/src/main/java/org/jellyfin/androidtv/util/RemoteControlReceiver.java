@@ -9,9 +9,6 @@ import org.jellyfin.androidtv.TvApp;
 import org.jellyfin.androidtv.playback.AudioNowPlayingActivity;
 import org.jellyfin.androidtv.playback.MediaManager;
 
-/**
- * Created by Eric on 4/17/2015.
- */
 public class RemoteControlReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {

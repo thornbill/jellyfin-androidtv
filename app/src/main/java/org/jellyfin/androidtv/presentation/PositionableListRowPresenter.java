@@ -6,9 +6,6 @@ import androidx.leanback.widget.RowPresenter;
 
 import org.jellyfin.androidtv.TvApp;
 
-/**
- * Created by Eric on 10/12/2015.
- */
 public class PositionableListRowPresenter extends CustomListRowPresenter implements IPositionablePresenter {
 
     private ListRowPresenter.ViewHolder viewHolder;

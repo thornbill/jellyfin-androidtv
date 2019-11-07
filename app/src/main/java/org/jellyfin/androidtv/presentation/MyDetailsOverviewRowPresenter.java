@@ -22,9 +22,6 @@ import org.jellyfin.androidtv.util.Utils;
 
 import org.jellyfin.apiclient.model.dto.BaseItemDto;
 
-/**
- * Created by Eric on 5/22/2015.
- */
 public class MyDetailsOverviewRowPresenter extends RowPresenter {
 
     private ViewHolder viewHolder;

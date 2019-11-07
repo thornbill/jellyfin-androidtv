@@ -23,9 +23,6 @@ import org.jellyfin.androidtv.itemhandling.BaseRowItem;
 import org.jellyfin.androidtv.itemhandling.ItemLauncher;
 import org.jellyfin.androidtv.itemhandling.ItemRowAdapter;
 
-/**
- * Created by Eric on 4/8/2015.
- */
 public class MySearchFragmentNoSpeech extends Fragment {
 
     private static final int SEARCH_DELAY_MS = 1500;

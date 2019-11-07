@@ -28,9 +28,6 @@ import org.jellyfin.apiclient.model.session.PlayRequest;
 import org.jellyfin.apiclient.model.session.PlaystateRequest;
 import org.jellyfin.apiclient.model.session.SessionInfoDto;
 
-/**
- * Created by Eric on 2/14/2015.
- */
 public class TvApiEventListener extends ApiEventListener {
 
     @Override

@@ -15,9 +15,6 @@ import org.jellyfin.apiclient.model.querying.ItemSortBy;
 import org.jellyfin.apiclient.model.querying.ItemsResult;
 import org.jellyfin.apiclient.model.querying.SimilarItemsQuery;
 
-/**
- * Created by Eric on 12/4/2014.
- */
 public class SuggestedMoviesFragment extends EnhancedBrowseFragment {
 
     @Override
