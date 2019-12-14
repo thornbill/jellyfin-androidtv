@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
 def version = "0.10.2"
 
 android {
@@ -62,4 +64,9 @@ dependencies {
     implementation 'com.flaviofaria:kenburnsview:1.0.6'
     implementation 'org.videolan.android:libvlc-all:3.1.12'
     testImplementation 'junit:junit:4.12'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }
