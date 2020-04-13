@@ -16,6 +16,11 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'Personal Sonarcloud'
+    organization: 'thornbill-github'
+    scannerMode: 'Other'
 - task: Gradle@2
   displayName: 'Run Tests'
   inputs:
@@ -24,7 +29,8 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
-    sonarQubeRunAnalysis: false
+    sonarQubeRunAnalysis: true
+    sonarQubeGradlePluginVersion: '2.8'
 
 - task: Gradle@2
   displayName: 'Build Debug'
