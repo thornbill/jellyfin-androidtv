@@ -21,6 +21,7 @@ steps:
     SonarCloud: 'Personal Sonarcloud'
     organization: 'thornbill-github'
     scannerMode: 'Other'
+    extraProperties: 'sonar.projectKey=thornbill_jellyfin-androidtv'
 - task: Gradle@2
   displayName: 'Run Tests'
   inputs:
