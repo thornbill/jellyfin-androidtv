@@ -26,8 +26,18 @@ steps:
   displayName: 'Run Tests'
   inputs:
     gradleWrapperFile: 'gradlew'
-    tasks: 'test sonarqube'
+    tasks: 'test'
     publishJUnitResults: true
+    testResultsFiles: '**/TEST-*.xml'
+    javaHomeOption: 'JDKVersion'
+    sonarQubeRunAnalysis: false
+
+- task: Gradle@2
+  displayName: 'Run Sonarqube'
+  inputs:
+    gradleWrapperFile: 'gradlew'
+    tasks: 'sonarqube'
+    publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
     sonarQubeRunAnalysis: false
