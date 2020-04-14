@@ -21,17 +21,16 @@ steps:
     SonarCloud: 'Personal Sonarcloud'
     organization: 'thornbill-github'
     scannerMode: 'Other'
-    extraProperties: 'sonar.projectKey=thornbill_jellyfin-androidtv'
+
 - task: Gradle@2
   displayName: 'Run Tests'
   inputs:
     gradleWrapperFile: 'gradlew'
-    tasks: 'test'
+    tasks: 'test sonarqube'
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
-    sonarQubeRunAnalysis: true
-    sonarQubeGradlePluginVersion: '2.8'
+    sonarQubeRunAnalysis: false
 
 - task: Gradle@2
   displayName: 'Build Debug'
