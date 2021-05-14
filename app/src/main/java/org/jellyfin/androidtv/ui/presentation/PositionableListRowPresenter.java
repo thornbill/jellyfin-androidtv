@@ -2,6 +2,8 @@ package org.jellyfin.androidtv.ui.presentation;
 
 import android.graphics.drawable.Drawable;
 
+import androidx.leanback.widget.FocusHighlight;
+import androidx.leanback.widget.FocusHighlightHelper;
 import androidx.leanback.widget.ListRowPresenter;
 import androidx.leanback.widget.RowPresenter;
 
@@ -41,6 +43,14 @@ public class PositionableListRowPresenter extends CustomListRowPresenter impleme
         super.onBindRowViewHolder(holder, item);
 
         viewHolder = (ViewHolder) holder;
+        if (viewHolder != null && viewHolder.getGridView() != null) {
+            viewHolder.getGridView().setHorizontalSpacing(32);
+            FocusHighlightHelper.setupBrowseItemFocusHighlight(
+                    viewHolder.getBridgeAdapter(),
+                    FocusHighlight.ZOOM_FACTOR_SMALL,
+                    false
+            );
+        }
     }
 
     public void setPosition(int ndx) {
